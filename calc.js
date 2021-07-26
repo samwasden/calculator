@@ -31,6 +31,12 @@ reader.question("What would you like to calculate?", function(input){
 	else if (mathSymbol === "√") {
 		solution = Math.sqrt(num1)
 	}
+	else if (mathSymbol === "^") {
+		solution = num1 ** num2
+	}
+	else if (mathSymbol === "%") {
+		solution = num1 % num2
+	}
 	else {
 		solution = "Please make a more intelligent input."
 	}
